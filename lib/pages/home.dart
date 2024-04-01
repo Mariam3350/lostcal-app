@@ -100,7 +100,7 @@ class Home extends StatelessWidget {
                  bottom: 100,
                  child: ElevatedButton(
                  onPressed: () {
-                   Navigator.pushNamed(context, "/login");
+
                    // Perform an action when the button is pressed
                  },
                  style: ElevatedButton.styleFrom(
@@ -124,6 +124,7 @@ class Home extends StatelessWidget {
                     bottom: 25,
                     child: OutlinedButton(
                       onPressed: () {
+                        Navigator.pushNamed(context, "/login");
                         // Perform an action when the button is pressed
                       },
                       style: OutlinedButton.styleFrom(
